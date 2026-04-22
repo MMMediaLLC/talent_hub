@@ -127,11 +127,11 @@ export function SelectInput({
                      focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary
                      hover:border-primary/30 transition-all text-base pr-10"
         >
-          <option value="" className="bg-card text-muted-foreground">
+          <option value="" className="bg-[#0F0F1A] text-muted-foreground">
             {placeholder}
           </option>
           {options.map((opt) => (
-            <option key={opt.value} value={opt.value} className="bg-card text-foreground">
+            <option key={opt.value} value={opt.value} className="bg-[#0F0F1A] text-foreground">
               {opt.label}
             </option>
           ))}
