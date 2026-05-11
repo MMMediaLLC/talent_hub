@@ -3,10 +3,10 @@ import { NextResponse } from "next/server";
 // Label maps for human-readable display
 const areaLabels: Record<string, string> = {
   media: "Медиуми и новинарство",
-  content: "Содржина и социјални мрежи",
+  content: "Социјални мрежи",
   design: "Дизајн и визуелна комуникација",
   production: "Фото, видео и дрон продукција",
-  ai: "АИ алатки и автоматизација",
+  ai: "Вештачка интелигенција (AI)",
   web: "Веб и технологија",
 };
 
@@ -60,6 +60,7 @@ const activityTypeLabels: Record<string, string> = {
 
 const referralLabels: Record<string, string> = {
   instagram: "Instagram",
+  facebook: "Facebook",
   tiktok: "TikTok / YouTube",
   friend: "Пријател / препорака",
   linkedin: "LinkedIn",

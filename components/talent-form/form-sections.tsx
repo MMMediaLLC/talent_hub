@@ -373,7 +373,7 @@ export function Section5Commitment({ formData, updateField }: SectionProps) {
         label="Кажи ни нешто за себе"
         value={formData.aboutYourself}
         onChange={(v) => updateField("aboutYourself", v)}
-        placeholder="Што сакаш да знаеме за тебе? Што те прави уникатен/на? Кои се твоите амбиции?"
+        placeholder="Кажи нешто за себе — хоби, интерес, нешто на кое си горд/а. Нема точен или погрешен одговор."
         maxLength={300}
       />
 

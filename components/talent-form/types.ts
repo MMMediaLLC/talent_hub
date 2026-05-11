@@ -272,7 +272,7 @@ export const activityOptions = [
 
 // Project type options
 export const projectTypeOptions = [
-  { id: "short", label: "Кратки платени задачи (1-3 дена)" },
+  { id: "short", label: "Кратки задачи (1-3 дена)" },
   { id: "long", label: "Подолги проекти (1-4 недели)" },
   { id: "internship", label: "Пракса / менторство" },
   { id: "team", label: "Тимска работа со други кандидати" },
@@ -305,6 +305,7 @@ export const activityTypeOptions = [
 // Referral source options
 export const referralOptions = [
   { id: "instagram", label: "Instagram" },
+  { id: "facebook", label: "Facebook" },
   { id: "tiktok", label: "TikTok / YouTube" },
   { id: "friend", label: "Пријател / препорака" },
   { id: "linkedin", label: "LinkedIn" },

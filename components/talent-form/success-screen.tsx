@@ -32,7 +32,7 @@ export function SuccessScreen({ primaryArea, level }: SuccessScreenProps) {
           </div>
         </div>
 
-        <div class="space-y-3">
+        <div className="space-y-3">
           <h1 className="text-3xl font-bold text-foreground">
             Твојата пријава е зачувана
           </h1>
@@ -83,7 +83,7 @@ export function SuccessScreen({ primaryArea, level }: SuccessScreenProps) {
 
         {/* Note */}
         <p className="text-sm text-muted-foreground">
-          Провери го и спам фолдерот ако не добиеш одговор.
+          Ќе бидеш контактиран/а доколку има соодветна можност за тебе.
         </p>
       </div>
     </div>
