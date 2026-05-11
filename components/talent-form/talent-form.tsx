@@ -26,31 +26,31 @@ function LandingSection({ onStart }: { onStart: () => void }) {
       <div className="absolute inset-0 z-[-1] bg-[#0F0F1A]/70" />
       <AnimatedBackground />
 
-      <div className="relative max-w-xl w-full text-center space-y-8 z-10">
+      <div className="relative max-w-xl w-full text-center space-y-4 z-10">
         {/* Logo/Title */}
-        <div className="space-y-4">
-          <h1 className="text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
+        <div className="space-y-2">
+          <h1 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight">
             M&M Talent Hub
           </h1>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-base sm:text-lg text-muted-foreground">
             Платформа за мапирање и развој на млади таленти
           </p>
         </div>
 
         {/* Description */}
-        <div className="bg-card rounded-2xl border border-border p-6 sm:p-8 text-left space-y-4">
-          <p className="text-foreground leading-relaxed">
+        <div className="bg-card rounded-2xl border border-border p-4 sm:p-6 text-left space-y-3">
+          <p className="text-sm text-foreground leading-relaxed">
             <strong>M&M Talent Hub</strong> е иницијатива на M&M Media, наменета за млади од 16 до 25 години од Гостивар и регионот, кои имаат интерес за медиуми, новинарство, графички дизајн, фотографија, видео и дрон продукција, вештачка интелигенција, веб и апликациски проекти.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-sm text-muted-foreground leading-relaxed">
             Целта е да се добие појасна слика за интересите, вештините и потенцијалот на младите, со цел во следните фази да се создадат подобри можности за насочување, соработка, обуки и вклучување во реални активности и проекти.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-sm text-muted-foreground leading-relaxed">
             Со пополнување на пријавата, помагаш да се изгради реална база на млади таленти, која во следни фази може да послужи за активности, соработки и проектни вклучувања.
           </p>
 
           {/* Important note */}
-          <p className="text-sm text-muted-foreground/80 italic border-t border-border pt-4 mt-4">
+          <p className="text-xs text-muted-foreground/80 italic border-t border-border pt-3">
             Ова не е класична апликација за работа и не претставува гаранција за ангажман.
           </p>
         </div>
@@ -58,13 +58,13 @@ function LandingSection({ onStart }: { onStart: () => void }) {
         {/* CTA Button */}
         <button
           onClick={onStart}
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-xl 
-                     bg-primary text-primary-foreground font-semibold text-lg
+          className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl
+                     bg-primary text-primary-foreground font-semibold text-base
                      hover:brightness-110 active:scale-[0.98] transition-all
                      shadow-lg shadow-primary/25"
         >
           <span>Започни</span>
-          <ArrowDown className="w-5 h-5" />
+          <ArrowDown className="w-4 h-4" />
         </button>
       </div>
     </div>
