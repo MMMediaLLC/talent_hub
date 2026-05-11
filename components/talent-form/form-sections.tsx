@@ -109,11 +109,12 @@ export function Section1BasicInfo({ formData, updateField }: SectionProps) {
       </div>
 
       <TextInput
-        label="Е-пошта"
+        label="Е-пошта *"
         value={formData.email}
         onChange={(v) => updateField("email", v)}
         type="email"
         placeholder="example@email.com"
+        helperText="Задолжително"
       />
 
       <TextInput

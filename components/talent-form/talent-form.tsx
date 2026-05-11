@@ -80,7 +80,7 @@ function isValidEmail(email: string): boolean {
 }
 
 function canSubmit(formData: FormData): boolean {
-  return formData.fullName.trim() !== "" || formData.email.trim() !== "";
+  return formData.email.trim() !== "" && isValidEmail(formData.email);
 }
 
 export function TalentForm() {
@@ -314,7 +314,7 @@ export function TalentForm() {
 
             {isLastSection && !canSubmit(formData) && (
               <p className="text-xs text-muted-foreground text-center mt-4">
-                Внеси барем име или е-пошта за да испратиш.
+                Внеси валидна е-пошта за да испратиш.
               </p>
             )}
           </form>
